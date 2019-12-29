@@ -31,7 +31,7 @@ def update_counting_hash(hash, key)
        hash[key] += 1
      else
        hash.store(key, 1)
-       return hash[key]
+       return hash[key, ]
        puts false 
      end
 end
