@@ -30,6 +30,7 @@ def update_counting_hash(hash, key)
     if hash.has_key?(key)
        hash[key] += 1
        puts true
+       return hash
      else
        hash.store(key, 1)
        puts false
